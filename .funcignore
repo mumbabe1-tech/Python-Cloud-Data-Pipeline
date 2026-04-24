@@ -1,0 +1,29 @@
+# Git and VS Code
+.git*
+.vscode
+
+# Local Azure Storage Emulation (Azurite)
+__azurite_db*__.json
+__blobstorage__
+__queuestorage__
+
+# Secrets (Azure uses 'Configuration' in the portal instead)
+local.settings.json
+
+# Local Environment and Testing
+.venv
+test/
+test_azure_connection.py
+
+# --- DATA ENGINEERING IGNORES ---
+# Do not upload local data to the Function App; use Blob Storage instead
+bronze/
+silver/
+gold/
+
+# --- ARCHIVE/LEGACY IGNORES ---
+# Keeps the deployment package small and clean
+legacy_airflow/
+CapitalEdge_Pipeline/
+logs/
+plugins/

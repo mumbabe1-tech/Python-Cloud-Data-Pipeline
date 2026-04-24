@@ -1,0 +1,26 @@
+# --- Cloud Orchestration ---
+azure-functions
+
+# --- Core Extraction ---
+requests
+
+# --- Data Transformation ---
+pandas
+
+# --- Parquet Support ---
+pyarrow
+fastparquet
+
+# --- SQL Toolkit & Database Connectivity ---
+sqlalchemy
+pymssql
+
+# --- Security & Credentials ---
+python-dotenv
+
+# --- Azure Cloud Integration ---
+azure-storage-blob
+azure-identity
+
+# --- Monitoring (Optional) ---
+# azure-monitor-opentelemetry
